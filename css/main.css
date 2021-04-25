@@ -1,0 +1,347 @@
+.top
+{
+background-color: #272930;
+color:#CCCCCC;
+display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+  height:90px;
+
+
+}
+
+
+.flex-container
+{
+
+
+display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ height: 100%;
+
+
+}
+
+
+
+.top-item1
+{
+flex-grow:1;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.top-item2
+{
+flex-grow:2;
+text-align:right;
+padding-right:20px;
+padding-top:5px;
+}
+
+
+.top-item3
+{
+display:none;
+}
+
+
+
+#notify-div
+{
+line-height:normal;
+background-color:#FFFFFF;
+border:1px solid #CCCCCC;
+position:absolute;
+padding-left:20px;
+padding-right:20px;
+padding-top:20px;
+padding-bottom:20px;
+top:50px;
+right:20px;
+-moz-border-radius: 5px; /* Para Firefox */
+-webkit-border-radius: 5px; /*Para Safari e Chrome */
+border-radius: 5px; /* Para Opera 10.5+*/
+min-width:310px;
+display:none;
+-moz-box-shadow:0px 2px 5px 0px #333 ;
+-webkit-box-shadow:0px 2px 5px 0px #333;
+box-shadow: 0px 2px 5px 0px #333;
+color:#272930;
+}
+
+
+
+.left-menu
+{
+background-color:#272930;
+width:250px;
+height:100%;
+color:#CCCCCC;
+ }
+ 
+ .main-div{
+ 	
+ flex-grow:1;
+ }
+ 
+
+.highlightmenuon
+{
+background-color:#3A7FB8;
+}
+
+.highlightmenuoff
+{
+background-color: transparent;
+}
+
+.path-title{
+	
+color:#006595;	
+}
+
+
+
+#menu-vertical-div ul
+{
+width:250px;
+margin:0px;
+padding:0px;
+}
+
+#menu-vertical-div li
+{
+list-style:none;
+padding-left:20px;
+height:35px;
+line-height:35px;}
+
+#left-menu-div a
+{
+color:#CCCCCC;
+text-decoration:none;
+}
+
+#left-menu-div a:hover
+{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#icon-menu-div
+{
+text-align:right;
+background-color:#1E1E1E;
+padding-right:5px;
+padding-top:10px;
+padding-bottom:5px;
+
+}
+
+
+.submenu{
+	display:none;
+	background-color:#1C1D1F;
+	
+}
+
+
+
+
+
+.page-path{
+	background-color: #E5E5E5;
+	height:40px;
+	line-height: 40px;
+	padding-left:20px;
+}
+
+
+
+.page-content{
+	
+		padding:20px;
+}
+
+
+.page-buttons{
+	padding:10px;
+
+}
+
+.page-paging{
+	padding-top:15px;
+	padding-bottom:15px;
+	
+}
+
+
+
+.userimg
+{
+margin:10px;
+vertical-align:middle;
+-moz-border-radius: 30px; /* Para Firefox */
+-webkit-border-radius: 30px; /*Para Safari e Chrome */
+border-radius: 30px; /* Para Opera 10.5+*/
+-moz-box-shadow:0px 2px 5px 0px #333; 
+-webkit-box-shadow:0px 2px 5px 0px #333;
+box-shadow: 0px 2px 5px 0px #333;
+
+}
+
+.hand
+{
+cursor:pointer;
+cursor:hand;
+}
+
+.highlight_green{
+	color:var(--main-color-green);
+}
+
+
+
+.div-shortcut{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center; 
+}
+
+.icon-shortcut{
+width: 250px;		
+	
+	text-align: center;
+	padding:20px;
+}
+
+.icon-highlights{
+
+height: 70px;
+	width:70px;	
+-moz-border-radius: 20%; /* Para Firefox */
+-webkit-border-radius: 20%; /*Para Safari e Chrome */
+border-radius: 20%; /* Para Opera 10.5+*/
+background-color: rgb(35, 120, 218);
+color: #FFFFFF;
+text-align: center;
+padding-top: 20px;
+box-sizing: border-box;
+margin: auto;
+}
+
+
+
+.classificacao{
+display: flex;	
+align-items: center;
+}
+
+
+.round-classif{
+border-radius: 50%;	
+width: 30px;
+height: 30px;
+margin: 10px;
+border: 2px solid #555657;
+
+
+}
+
+.classif_1{
+background-color: var(--main-color-green-dark);	
+}
+
+.classif_2{
+background-color: var(--main-color-yellow-dark);	
+}
+
+.classif_3{
+background-color: var(--main-color-red-dark);	
+}
+
+.sustentavel{
+color: var(--main-color-green-dark)	;
+}
+
+.nao-sustentavel{
+color: var(--main-color-red-dark)	;
+}
+
+
+@media (max-width: 767px) 
+{
+
+
+.top-item2{
+	display: none;
+}
+.top-item3{
+	display:block;
+	padding:20px;
+
+}
+
+.left-menu{
+	
+	position:absolute;
+	width:0px;
+	display:none;
+		
+}
+
+#menu-vertical-div{
+	display:none;
+}
+
+
+
+#icon-menu-div{
+	display: none;
+}
+
+
+
+.page-content{
+	
+		padding:20px;
+		
+}
+
+.main-div{
+width:100%; 	
+	
+ }
+
+
+}
+
+@media (min-width: 768px) 
+{
+	 
+}
+
+
+
+@media (min-width: 992px) 
+{
+	
+
+}	
+
+
+@media (min-width: 1200px) 
+{ 
+	
+	 
+}
+

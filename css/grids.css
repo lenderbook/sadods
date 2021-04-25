@@ -1,0 +1,146 @@
+/*
+ * grids v1.2-04/12/2018
+ * www.mxsolutions.com.br
+ */
+
+
+.spacing-t {padding-top:15px;}
+.spacing-b {padding-bottom:15px;}
+.spacing-l {padding-left:15px;}
+.spacing-r {padding-right:15px;}
+.spacing-tblr {padding:15px;}
+
+.margins-t {margin-top:15px;}
+.margins-b {margin-bottom:15px;}
+.margins-l {margin-left:15px;}
+.margins-r {margin-right:15px;}
+.margins-tblr {margin:15px;}
+
+.container{
+
+  display:flex;
+  box-sizing: border-box;
+
+
+
+}
+
+.col{
+flex-grow:1; 
+flex-basis: 0;
+box-sizing: border-box;
+   }
+   
+   .col-2{
+      flex-grow:2; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+
+   .col-3{
+      flex-grow:3; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+
+   .col-4{
+      flex-grow:4; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+   .col-5{
+      flex-grow:5; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+
+   .col-6{
+      flex-grow:6; 
+flex-basis: 0;
+box-sizing: border-box;
+   }
+
+   .col-7{
+      flex-grow:7; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+
+   .col-8{
+      flex-grow:8; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+   .col-9{
+      flex-grow:9; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+
+   .col-10{
+      flex-grow:10; 
+flex-basis: 0;
+box-sizing: border-box;
+
+   }
+
+
+
+
+@media (max-width: 767px) 
+{
+.container{
+display:block;
+box-sizing: border-box;}
+
+
+
+}
+
+
+@media (min-width: 768px) {
+
+.container-center
+{
+display:flex;    
+margin:auto;
+width: 700px;
+box-sizing: border-box;
+}
+
+}
+
+
+
+@media (min-width: 992px) {
+
+.container-center
+{
+display:flex;    
+margin:auto;
+width: 900px;
+box-sizing: border-box;
+}
+
+}	
+
+
+
+@media (min-width: 1200px) { 
+
+.container-center
+{
+display:flex;    
+margin:auto;
+width: 1100px;
+box-sizing: border-box;
+}
+
+}
