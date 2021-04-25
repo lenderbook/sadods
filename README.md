@@ -13,3 +13,5 @@ Configuração
 Para configuração do sistema utilize o arquivo config.php e faça as alterações necessárias.
 O arquivo para instalação do banco de dados é o arquivo sadods.sql localizado na raíz do repositório.
 
+Para seu primeiro login utilize o usuário sadods e senha sadods. Não esqueça de alterar sua credencial.
+
